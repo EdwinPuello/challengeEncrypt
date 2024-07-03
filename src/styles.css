@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #f3f5fc; width: 100%;}
+input {
+    /* border: none; */
+    background-color: transparent;
+    outline: none; /* Esto quita el contorno de enfoque al hacer click */
+}
+::placeholder {
+    color: #0A3871; /* Color que desees para el placeholder */
+}
+
+/* Para navegadores que no soportan el selector ::placeholder */
+input::placeholder {
+    color: #0A3871; /* Color que desees para el placeholder */
+}
